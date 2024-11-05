@@ -1,0 +1,107 @@
+* {
+	box-sizing: borde-box;
+	margin: 0;
+	padding: 0;
+}
+
+body > header {
+	background-color: #2f3640;
+	padding: 16px 0;
+	color: white;
+}
+
+
+
+header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .container a {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: large;
+}
+
+header .container a:hover {
+	text-decoration: underline;
+}
+
+header li {
+	display: inline;
+}
+
+.container {
+	width: 1366px;
+	margin: 0 auto;
+}
+
+.articles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.articles article img {
+	width: 100%;
+}
+
+.articles article {
+	width: 30%;
+}
+
+section {
+	padding: 16px 0;
+}
+
+section h2,
+.articles article {
+	margin-bottom: 16px;
+}
+
+.articles article h3 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.articles article a {
+	background: linear-gradient(to right,blue,#4040fb);
+	color: white;
+	padding: 8px;
+	display: inline-block;
+	border: black;
+	border-radius: 8px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 8px;
+}
+
+.articles article a:hover {
+	text-decoration: underline;
+	
+}
+
+.container h2 {
+	font-size: 32px;
+}
+
+.articles article p , 
+.articles article h3, 
+.articles article h2, 
+.articles article h1, 
+.container h1, 
+.container a{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#sports {
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economy {
+	background-color: rgba(255, 255, 0, 0.2);
+}
